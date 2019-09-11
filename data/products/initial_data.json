@@ -1,0 +1,357 @@
+[
+    {
+        "name": "Nueces de Macadamia",
+        "brand": "Hacendado",
+        "market": [
+            "Mercadona"
+        ],
+        "amount": 100,
+        "barcode": "8480000348388",
+        "imageUrl": "https://1.bp.blogspot.com/-4qDYjJI1s8E/XLec6oTyMFI/AAAAAAAAK2Q/sQjeL2QJCpgpJqQCFBNJCdyHxsGlvLowACKgBGAs/s1600/nuez-de-macadamia-con-sal-hacendado-mercadona-1.jpg",
+        "ingredients": [
+            "Nueces de Macadamia",
+            "Sal"
+        ],
+        "nutritionFacts": [
+            {
+                "name": "kcal",
+                "amount": 734
+            },
+            {
+                "name": "fat",
+                "amount": 71
+            },
+            {
+                "name": "carbs",
+                "amount": 12
+            },
+            {
+                "name": "sugar",
+                "amount": 4.1
+            },
+            {
+                "name": "fibre",
+                "amount": 8
+            },
+            {
+                "name": "protein",
+                "amount": 7.8
+            },
+            {
+                "name": "salt",
+                "amount": 3
+            }
+        ],
+        "typeOfProduct": "WellProcessed"
+    },
+    {
+        "name": "Cocktail galletitas saladas",
+        "brand": "Hacendado",
+        "market": [
+            "Mercadona"
+        ],
+        "amount": 100,
+        "barcode": "1234",
+        "imageUrl": "https://1.bp.blogspot.com/-oS0s3rnGE5o/XMIsm0xXyaI/AAAAAAAALmI/Wntvj4OTrho2AFSNjtdoxx5W2EICHseSQCKgBGAs/s1600/cocktail-galletitas-saladas-hacendado-mercadona-1.jpg",
+        "ingredients": [
+            "Harina de trigo (gluten)",
+            "Grasas vegetales (palma, coco)",
+            "Sal (3,2%)",
+            "Azúcar",
+            "Gasificantes"
+        ],
+        "nutritionFacts": [
+            {
+                "name": "kcal",
+                "amount": 460
+            },
+            {
+                "name": "fat",
+                "amount": 18
+            },
+            {
+                "name": "carbs",
+                "amount": 65
+            },
+            {
+                "name": "sugar",
+                "amount": 4.5
+            },
+            {
+                "name": "fibre",
+                "amount": 2.8
+            },
+            {
+                "name": "protein",
+                "amount": 8
+            },
+            {
+                "name": "salt",
+                "amount": 3.2
+            }
+        ],
+        "typeOfProduct": "UltraProcessed"
+    },
+    {
+        "name": "Pipas de calabaza",
+        "brand": "Hacendado",
+        "market": [
+            "Mercadona"
+        ],
+        "amount": 100,
+        "barcode": "1234",
+        "imageUrl": "https://1.bp.blogspot.com/-Y_0uxNyhiQs/XJ0UCwcYgeI/AAAAAAAAKfA/2iP9mLWQVncrQJD8sJwta1xLodiKSeT3gCKgBGAs/s1600/pipas-de-calabaza-mondadas-naturales-hacendado-mercadona-1.jpg",
+        "ingredients": [
+            "Pipas de calabaza"
+        ],
+        "nutritionFacts": [
+            {
+                "name": "kcal",
+                "amount": 617
+            },
+            {
+                "name": "fat",
+                "amount": 49
+            },
+            {
+                "name": "carbs",
+                "amount": 10.7
+            },
+            {
+                "name": "fibre",
+                "amount": 6
+            },
+            {
+                "name": "protein",
+                "amount": 30.2
+            },
+            {
+                "name": "salt",
+                "amount": 0
+            },
+            {
+                "name": "sugar",
+                "amount": 0
+            }
+        ],
+        "typeOfProduct": "RealFood"
+    },
+    {
+        "name": "Torreznos de cerdo",
+        "brand": "Hacendado",
+        "market": [
+            "Mercadona"
+        ],
+        "amount": 100,
+        "barcode": "1234",
+        "imageUrl": "https://1.bp.blogspot.com/-S9RIyGglNAQ/XMDGuW1HPVI/AAAAAAAALhI/IFS47vOF9EMsCQPGnTg-TV07lkeTKEE7wCKgBGAs/s1600/torreznos-de-cerdo-hacendado-mercadona-1.jpg",
+        "ingredients": [
+            "Careta de cerdo",
+            "Grasa de cerdo",
+            "Sal"
+        ],
+        "nutritionFacts": [
+            {
+                "name": "kcal",
+                "amount": 580
+            },
+            {
+                "name": "fat",
+                "amount": 38
+            },
+            {
+                "name": "carbs",
+                "amount": 0.5
+            },
+            {
+                "name": "sugar",
+                "amount": 0.5
+            },
+            {
+                "name": "fibre",
+                "amount": 0.1
+            },
+            {
+                "name": "salt",
+                "amount": 4
+            }
+        ],
+        "typeOfProduct": "WellProcessed"
+    },
+    {
+        "name": "Crema de Calabaza y Zanahoria",
+        "brand": "Hacendado",
+        "market": [
+            "Mercadona"
+        ],
+        "amount": 620,
+        "barcode": "1234",
+        "imageUrl": "https://static.openfoodfacts.org/images/products/801/419/001/2509/front_es.6.full.jpg",
+        "ingredients": [
+            "Agua",
+            "Calabaza 24%",
+            "Zanahoria 17%",
+            "Patata",
+            "Puerro",
+            "Jugo de soja (agua, semilla de soja libre de OGM, sal)",
+            "Aceite de oliva",
+            "Azúcar",
+            "Sal",
+            "Especias",
+            "Aroma natural"
+        ],
+        "nutritionFacts": [
+            {
+                "name": "kcal",
+                "amount": 49
+            },
+            {
+                "name": "fat",
+                "amount": 2.6
+            },
+            {
+                "name": "carbs",
+                "amount": 5.4
+            },
+            {
+                "name": "sugar",
+                "amount": 2.0
+            },
+            {
+                "name": "fibre",
+                "amount": 0.1
+            },
+            {
+                "name": "salt",
+                "amount": 0.3
+            }
+        ],
+        "typeOfProduct": "WellProcessed"
+    },
+    {
+        "name": "Queso Fresco Batido Desnatado",
+        "brand": "Hacendado",
+        "market": [
+            "Mercadona"
+        ],
+        "amount": 500,
+        "barcode": "1234",
+        "imageUrl": "https://static.openfoodfacts.org/images/products/848/000/051/0716/front_es.39.full.jpg",
+        "ingredients": [
+            "Leche de vaca desnatada pasterizada",
+            "fermentos lácticos"
+        ],
+        "nutritionFacts": [
+            {
+                "name": "kcal",
+                "amount": 46
+            },
+            {
+                "name": "fat",
+                "amount": 0.1
+            },
+            {
+                "name": "protein",
+                "amount": 8
+            },
+            {
+                "name": "carbs",
+                "amount": 3.5
+            },
+            {
+                "name": "sugar",
+                "amount": 3.5
+            },
+            {
+                "name": "fibre",
+                "amount": 0
+            }
+        ],
+        "typeOfProduct": "WellProcessed"
+    },
+    {
+        "name": "Maíz Palomitas",
+        "brand": "Hacendado",
+        "market": [
+            "Mercadona"
+        ],
+        "amount": 250,
+        "barcode": "1234",
+        "imageUrl": "https://1.bp.blogspot.com/-LTEhTyK6sLc/XJ6VnDnfreI/AAAAAAAAKh8/odOgfelzfFU1JTmGho78eNIFjjhi_9YbQCKgBGAs/s1600/palomitas-de-maiz-en-grano-natural-hacendado-mercadona-1.jpg",
+        "ingredients": [
+            "Maíz"
+        ],
+        "nutritionFacts": [
+            {
+                "name": "kcal",
+                "amount": 393
+            },
+            {
+                "name": "fat",
+                "amount": 4.6
+            },
+            {
+                "name": "sugar",
+                "amount": 0.6
+            },
+            {
+                "name": "carbs",
+                "amount": 75.7
+            },            
+            {
+                "name": "salt",
+                "amount": 0
+            }
+        ],
+        "typeOfProduct": "RealFood"
+    },
+    {
+        "name": "Palomitas Microondas Saladas",
+        "brand": "Hacendado",
+        "market": [
+            "Mercadona"
+        ],
+        "amount": 250,
+        "barcode": "1234",
+        "imageUrl": "https://a0.soysuper.com/25bda7a35ea526e28fc6bddd4e3e8add.1500.0.0.0.wmark.7abfda59.jpg",
+        "ingredients": [
+            "Maíz",
+            "Grasa de Palma",
+            "Aceite refinado de girasol alto oléico",
+            "Sal",
+            "Emulgente (E-471)",
+            "Antioxidantes (E-306 y E-304)"
+        ],
+        "nutritionFacts": [
+            {
+                "name": "kcal",
+                "amount": 450
+            },
+            {
+                "name": "fat",
+                "amount": 22
+            },
+            {
+                "name": "sugar",
+                "amount": 1
+            },
+            {
+                "name": "carbs",
+                "amount": 42
+            },            
+            {
+                "name": "salt",
+                "amount": 2.7
+            },
+            {
+                "name": "fibre",
+                "amount": 17
+            },            
+            {
+                "name": "protein",
+                "amount": 13
+            }
+        ],
+        "typeOfProduct": "UltraProcessed"
+    }
+]
