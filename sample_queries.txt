@@ -1,0 +1,49 @@
+query all {
+  products {
+    _id
+    name
+    market
+    imageUrl
+    ingredients
+    nutritionFacts {
+      name
+      amount
+    }
+    typeOfProduct
+  }
+}
+
+query productById {
+  product(id: "5d78b684d28e0008c0c7b978") {
+    _id
+    name
+  }
+}
+
+mutation createProduct {
+  createProduct(
+    name: "Te verde"
+    brand: "Hacendado"
+    market: ["Mercadona"]
+    amount: 37
+    barcode: "123456"
+    imageUrl: "https://a1.soysuper.com/8c700dcba7ce8c658b5cc0ad9c33de55.1500.0.0.0.wmark.c3be4ad0.jpg"
+    ingredients: ["Te verde"]
+    nutritionFacts: [{ name: "Fat", amount: 0 }]
+    typeOfProduct: WellProcessed
+  ) {
+    _id
+    name
+  }
+}
+
+mutation deleteProduct{
+  deleteProduct(_id: "5d724fa372f75f8a6719158c")
+}
+
+subscription newProductSub {
+  newProduct {
+    _id
+    name
+  }
+}
