@@ -3,9 +3,7 @@ import { ObjectId } from 'mongodb';
 
 const PRODUCT_ADDED = 'PRODUCT_ADDED';
 
-const createProduct = async (parent, args, { db, pubsub }, info) => {
-
-    const Products = db.collection('products');
+const createProduct = async (parent, args, { Products, pubsub }, info) => {
     let result = await Products.insertOne(args);
     let newProduct = result.ops[0];
 
@@ -14,8 +12,7 @@ const createProduct = async (parent, args, { db, pubsub }, info) => {
     return newProduct;
 }
 
-const editProduct = async (parent, args, { db }, info) => {
-    const Products = db.collection('products');
+const editProduct = async (parent, args, { Products }, info) => {
     const _id = args._id;
     delete args._id;
     await Products.updateOne({ "_id": ObjectId(_id) }, { $set: args });
@@ -23,8 +20,7 @@ const editProduct = async (parent, args, { db }, info) => {
     return args;
 }
 
-const deleteProduct = async (parent, args, { db }, info) => {
-    const Products = db.collection('products');
+const deleteProduct = async (parent, args, { Products }, info) => {
     try {
         Products.deleteOne({ "_id": ObjectId(args._id) });
         return true;

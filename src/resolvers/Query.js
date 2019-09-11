@@ -1,9 +1,7 @@
 //src/resolvers/Query.js
 import { ObjectId } from 'mongodb';
 
-const products = async (parent, args, { db }, info) => {
-    const Products = db.collection('products');
-
+const products = async (parent, args, { Products }, info) => {
     if (args.name) {
         return await Products.find({ name: new RegExp(args.name, 'i') }).toArray();
     }
@@ -11,15 +9,11 @@ const products = async (parent, args, { db }, info) => {
     return (await Products.find().toArray());
 }
 
-const product = async (parent, args, { db }, info) => {
-
-    const Products = db.collection('products');
+const product = async (parent, args, { Products }, info) => {
     return await Products.findOne({ _id: ObjectId(args.id) });
 }
 
-const numberOfProducts = async (parent, args, { db }, info) => {
-
-    const Products = db.collection('products');
+const numberOfProducts = async (parent, args, { Products }, info) => {
 
     if (args.typeOfProduct)
         return (Products.find({ typeOfProduct: args.typeOfProduct })).count();

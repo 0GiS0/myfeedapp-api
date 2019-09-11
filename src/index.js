@@ -30,8 +30,10 @@ MongoClient.connect('mongodb://localhost:27017', { useNewUrlParser: true }, func
     const server = new ApolloServer({
         typeDefs,
         resolvers,
-        context: { db, pubsub }
-
+        context: {
+            Products: db.collection('products'),
+            pubsub
+        }
     });
 
     server.listen().then(({ url }) => {
